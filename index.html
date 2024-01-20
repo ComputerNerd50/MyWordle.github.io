@@ -1,1 +1,57 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/Wordle/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/Wordle/logo192.png"/><link rel="manifest" href="/Wordle/manifest.json"/><title>React App</title><script defer="defer" src="/Wordle/static/js/main.7d5deba7.js"></script><link href="/Wordle/static/css/main.b21869c1.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css"> <!-- Include your styles or define them in a <style> tag -->
+  <title>Word Guess Game</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <!-- Navigation elements -->
+    </nav>
+  </header>
+
+  <div class="word-guess">
+    <ul>
+      <!-- Result list items -->
+    </ul>
+    <h1>Enter a 5 letter word</h1>
+    <input type="text" id="frm1" placeholder="Enter 5 letter word" />
+    <button onclick="handleGuessSubmit()">➣</button>
+    <p>Attempts remaining: <span id="remainingAttempts">6</span></p>
+    <p id="error" style="color: red; font-size: 20px;"></p>
+  </div>
+
+  <!-- On-screen keyboard -->
+  <div id="DialogExample">
+    <!-- Keyboard buttons -->
+  </div>
+
+  <!-- Settings menu -->
+  <div id="window">
+    <!-- Settings content -->
+  </div>
+
+  <!-- Help + Info menu -->
+  <div id="help">
+    <!-- Help + Info content -->
+  </div>
+
+  <!-- Output menu -->
+  <div id="output">
+    <!-- Output content -->
+  </div>
+
+  <!-- Hamburger menu -->
+  <div id="hamburger">
+    <!-- Hamburger menu content -->
+  </div>
+
+  <script src="script.js"></script> <!-- Include your JavaScript file -->
+</body>
+
+</html>
